@@ -1,0 +1,100 @@
+.app-shell {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 12% 18%, rgba(0, 119, 182, 0.2), transparent 40%),
+    radial-gradient(circle at 88% 6%, rgba(56, 176, 0, 0.18), transparent 34%),
+    linear-gradient(180deg, #edf6ff 0%, #f6fff8 100%);
+  color: #11324d;
+}
+
+.card {
+  border: 1px solid #d5e5f2;
+  border-radius: 0.9rem;
+  background-color: #ffffff;
+}
+
+.app-logo {
+  border-radius: 0.75rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.14);
+}
+
+.app-title {
+  color: #0b3a5e;
+}
+
+.app-subtitle {
+  color: #2d5974;
+}
+
+.nav-pills .nav-link {
+  font-weight: 600;
+  color: #145374;
+  background-color: #eaf4fb;
+  border: 1px solid #d2e7f6;
+}
+
+.nav-pills .nav-link.active {
+  background-color: #1572a1;
+  border-color: #1572a1;
+  color: #ffffff;
+}
+
+.app-link,
+.table a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.app-link:hover,
+.table a:hover {
+  color: #004a99;
+  text-decoration: underline;
+}
+
+.table thead th {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: #0b3a5e;
+  background-color: #dff1ff;
+}
+
+.table tbody tr:nth-of-type(odd) {
+  background-color: #f8fcff;
+}
+
+.table tbody tr:hover {
+  background-color: #e9f6ff;
+}
+
+.btn-primary {
+  background-color: #0d6e9f;
+  border-color: #0d6e9f;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #0a5b84;
+  border-color: #0a5b84;
+}
+
+.btn-outline-secondary {
+  color: #145374;
+  border-color: #88b2cd;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #d7ecfa;
+  color: #145374;
+  border-color: #77a8c7;
+}
+
+.json-preview {
+  background-color: #f4fbff;
+  border: 1px solid #c7e2f3;
+  border-radius: 0.5rem;
+  max-height: 18rem;
+  overflow: auto;
+  padding: 0.75rem;
+  color: #0f3057;
+}
